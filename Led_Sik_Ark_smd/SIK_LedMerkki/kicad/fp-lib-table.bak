@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SIK_LedMerkki_foorprints") (type "KiCad") (uri "${LIB}/SIK_LedMerkki_footprints.pretty") (options "") (descr ""))
+)
