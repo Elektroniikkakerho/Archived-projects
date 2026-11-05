@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SIK_LedMerkki") (type "Legacy") (uri "${LIB}/SIK_LedMerkki_schematic.lib") (options "") (descr ""))
+	(lib (name "SIK_LedMerkki_cache") (type "Legacy") (uri "${KIPRJMOD}/SIK_LedMerkki-cache.lib") (options "") (descr ""))
+	(lib (name "SIK_LEdMerkki_rescue") (type "Legacy") (uri "${KIPRJMOD}/SIK_LedMerkki-rescue.lib") (options "") (descr ""))
+	(lib (name "SIK_LedMerkki-cache") (type "Legacy") (uri "C:/Users/ikkun/Desktop/SIK_LedMerkki/SIK_LedMerkki/SIK_LedMerkki-cache.lib") (options "") (descr "Legacy project cache library"))
+)

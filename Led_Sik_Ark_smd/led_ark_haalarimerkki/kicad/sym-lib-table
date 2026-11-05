@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "led_ark_haalarimerkki_v2-rescue") (type "Legacy") (uri "${KIPRJMOD}/led_ark_haalarimerkki_v2-rescue.lib") (options "") (descr ""))
+	(lib (name "led_ark") (type "Legacy") (uri "${KIPRJMOD}/led_ark.lib") (options "") (descr ""))
+	(lib (name "led_ark-cache") (type "Legacy") (uri "${KIPRJMOD}/led_ark-cache.lib") (options "") (descr ""))
+	(lib (name "led_ark-rescue") (type "Legacy") (uri "${KIPRJMOD}/led_ark-rescue.lib") (options "") (descr ""))
+)

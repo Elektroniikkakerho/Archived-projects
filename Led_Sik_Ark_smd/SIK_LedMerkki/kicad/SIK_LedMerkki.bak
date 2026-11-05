@@ -1,0 +1,1862 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:74xx
+LIBS:led_ark
+LIBS:SIK_LedMerkki_schematic
+LIBS:SIK_LedMerkki-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR010
+U 1 1 5A1055D2
+P 13050 3750
+F 0 "#PWR010" H 13050 3500 50  0001 C CNN
+F 1 "GND" H 13050 3600 50  0000 C CNN
+F 2 "" H 13050 3750 50  0000 C CNN
+F 3 "" H 13050 3750 50  0000 C CNN
+	1    13050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:CP1- C4
+U 1 1 5A106D9A
+P 13050 3600
+F 0 "C4" H 13075 3700 50  0000 L CNN
+F 1 "4.7u" H 13050 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 13050 3600 50  0001 C CNN
+F 3 "" H 13050 3600 50  0000 C CNN
+	1    13050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:CP1- C5
+U 1 1 5A106F28
+P 15400 3500
+F 0 "C5" H 15425 3600 50  0000 L CNN
+F 1 "10uF" H 15425 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 15400 3500 50  0001 C CNN
+F 3 "" H 15400 3500 50  0000 C CNN
+	1    15400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:VCC- #PWR012
+U 1 1 5A10CDBD
+P 15400 3000
+F 0 "#PWR012" H 15400 2850 50  0001 C CNN
+F 1 "VCC" H 15400 3150 50  0000 C CNN
+F 2 "" H 15400 3000 50  0000 C CNN
+F 3 "" H 15400 3000 50  0000 C CNN
+	1    15400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:VCC- #PWR02
+U 1 1 5A10D06D
+P 1550 2050
+F 0 "#PWR02" H 1550 1900 50  0001 C CNN
+F 1 "VCC" H 1550 2200 50  0000 C CNN
+F 2 "" H 1550 2050 50  0000 C CNN
+F 3 "" H 1550 2050 50  0000 C CNN
+	1    1550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:C- C1
+U 1 1 5A15B324
+P 1250 2350
+F 0 "C1" H 1275 2450 50  0000 L CNN
+F 1 "100nF" H 1275 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1288 2200 50  0001 C CNN
+F 3 "" H 1250 2350 50  0000 C CNN
+	1    1250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR01
+U 1 1 5A15B4A9
+P 1250 2500
+F 0 "#PWR01" H 1250 2250 50  0001 C CNN
+F 1 "GND" H 1250 2350 50  0000 C CNN
+F 2 "" H 1250 2500 50  0000 C CNN
+F 3 "" H 1250 2500 50  0000 C CNN
+	1    1250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:C- C2
+U 1 1 5A15BB94
+P 1550 2350
+F 0 "C2" H 1575 2450 50  0000 L CNN
+F 1 "100nF" H 1575 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1588 2200 50  0001 C CNN
+F 3 "" H 1550 2350 50  0000 C CNN
+	1    1550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR03
+U 1 1 5A15BD09
+P 1550 2500
+F 0 "#PWR03" H 1550 2250 50  0001 C CNN
+F 1 "GND" H 1550 2350 50  0000 C CNN
+F 2 "" H 1550 2500 50  0000 C CNN
+F 3 "" H 1550 2500 50  0000 C CNN
+	1    1550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R9
+U 1 1 5A747C26
+P 15050 3250
+F 0 "R9" V 15130 3250 50  0000 C CNN
+F 1 "976k" V 15050 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14980 3250 50  0001 C CNN
+F 3 "" H 15050 3250 50  0000 C CNN
+	1    15050 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R10
+U 1 1 5A747DAD
+P 15050 3600
+F 0 "R10" V 15130 3600 50  0000 C CNN
+F 1 "536k" V 15050 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14980 3600 50  0001 C CNN
+F 3 "" H 15050 3600 50  0000 C CNN
+	1    15050 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:D_Schottky- D50
+U 1 1 5A748F43
+P 12600 3600
+F 0 "D50" H 12600 3700 50  0000 C CNN
+F 1 "D_Schottky" H 12600 3500 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 12600 3600 50  0001 C CNN
+F 3 "" H 12600 3600 50  0000 C CNN
+	1    12600 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR013
+U 1 1 5A74A4CD
+P 15400 3750
+F 0 "#PWR013" H 15400 3500 50  0001 C CNN
+F 1 "GND" H 15400 3600 50  0000 C CNN
+F 2 "" H 15400 3750 50  0000 C CNN
+F 3 "" H 15400 3750 50  0000 C CNN
+	1    15400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR011
+U 1 1 5A74C008
+P 14350 3400
+F 0 "#PWR011" H 14350 3150 50  0001 C CNN
+F 1 "GND" H 14350 3250 50  0000 C CNN
+F 2 "" H 14350 3400 50  0000 C CNN
+F 3 "" H 14350 3400 50  0000 C CNN
+	1    14350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR07
+U 1 1 5A74A54B
+P 4400 4600
+F 0 "#PWR07" H 4400 4350 50  0001 C CNN
+F 1 "GND" H 4400 4450 50  0000 C CNN
+F 2 "" H 4400 4600 50  0000 C CNN
+F 3 "" H 4400 4600 50  0000 C CNN
+	1    4400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R1
+U 1 1 5A74A8F6
+P 4550 3750
+F 0 "R1" V 4630 3750 50  0000 C CNN
+F 1 "4.7k" V 4550 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 3750 50  0001 C CNN
+F 3 "" H 4550 3750 50  0000 C CNN
+	1    4550 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:VCC- #PWR06
+U 1 1 5A74B35C
+P 4550 3600
+F 0 "#PWR06" H 4550 3450 50  0001 C CNN
+F 1 "VCC" H 4550 3750 50  0000 C CNN
+F 2 "" H 4550 3600 50  0000 C CNN
+F 3 "" H 4550 3600 50  0000 C CNN
+	1    4550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:C- C3
+U 1 1 5A74DEAD
+P 4400 4450
+F 0 "C3" H 4425 4550 50  0000 L CNN
+F 1 "100nF" H 4425 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4438 4300 50  0001 C CNN
+F 3 "" H 4400 4450 50  0000 C CNN
+	1    4400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U10
+U 1 1 5A7884D7
+P 7350 6500
+F 0 "U10" H 7350 6400 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 7350 6600 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 7350 6500 60  0001 C CNN
+F 3 "" H 7350 6500 60  0001 C CNN
+	1    7350 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U11
+U 1 1 5A788672
+P 7350 6800
+F 0 "U11" H 7350 6700 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 7350 6900 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 7350 6800 60  0001 C CNN
+F 3 "" H 7350 6800 60  0001 C CNN
+	1    7350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U12
+U 1 1 5A7887F3
+P 7350 7100
+F 0 "U12" H 7350 7000 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 7350 7200 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 7350 7100 60  0001 C CNN
+F 3 "" H 7350 7100 60  0001 C CNN
+	1    7350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U13
+U 1 1 5A788A6D
+P 7350 7400
+F 0 "U13" H 7350 7300 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 7350 7500 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 7350 7400 60  0001 C CNN
+F 3 "" H 7350 7400 60  0001 C CNN
+	1    7350 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U14
+U 1 1 5A788BFA
+P 7350 7750
+F 0 "U14" H 7350 7650 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 7350 7850 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 7350 7750 60  0001 C CNN
+F 3 "" H 7350 7750 60  0001 C CNN
+	1    7350 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U15
+U 1 1 5A788D8E
+P 7350 8100
+F 0 "U15" H 7350 8000 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 7350 8200 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 7350 8100 60  0001 C CNN
+F 3 "" H 7350 8100 60  0001 C CNN
+	1    7350 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U16
+U 1 1 5A788F1B
+P 7350 8400
+F 0 "U16" H 7350 8300 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 7350 8500 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 7350 8400 60  0001 C CNN
+F 3 "" H 7350 8400 60  0001 C CNN
+	1    7350 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U17
+U 1 1 5A7890B5
+P 7350 8700
+F 0 "U17" H 7350 8600 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 7350 8800 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 7350 8700 60  0001 C CNN
+F 3 "" H 7350 8700 60  0001 C CNN
+	1    7350 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U2
+U 1 1 5A7892DA
+P 5900 6500
+F 0 "U2" H 5900 6400 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 5900 6600 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 5900 6500 60  0001 C CNN
+F 3 "" H 5900 6500 60  0001 C CNN
+	1    5900 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U3
+U 1 1 5A7892E0
+P 5900 6800
+F 0 "U3" H 5900 6700 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 5900 6900 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 5900 6800 60  0001 C CNN
+F 3 "" H 5900 6800 60  0001 C CNN
+	1    5900 6800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U4
+U 1 1 5A7892E6
+P 5900 7100
+F 0 "U4" H 5900 7000 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 5900 7200 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 5900 7100 60  0001 C CNN
+F 3 "" H 5900 7100 60  0001 C CNN
+	1    5900 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U5
+U 1 1 5A7892EC
+P 5900 7400
+F 0 "U5" H 5900 7300 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 5900 7500 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 5900 7400 60  0001 C CNN
+F 3 "" H 5900 7400 60  0001 C CNN
+	1    5900 7400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U6
+U 1 1 5A7892F2
+P 5900 7750
+F 0 "U6" H 5900 7650 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 5900 7850 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 5900 7750 60  0001 C CNN
+F 3 "" H 5900 7750 60  0001 C CNN
+	1    5900 7750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U7
+U 1 1 5A7892F8
+P 5900 8100
+F 0 "U7" H 5900 8000 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 5900 8200 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 5900 8100 60  0001 C CNN
+F 3 "" H 5900 8100 60  0001 C CNN
+	1    5900 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U8
+U 1 1 5A7892FE
+P 5900 8400
+F 0 "U8" H 5900 8300 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 5900 8500 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 5900 8400 60  0001 C CNN
+F 3 "" H 5900 8400 60  0001 C CNN
+	1    5900 8400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:Vedonpoisto_10x1.7- U9
+U 1 1 5A789304
+P 5900 8700
+F 0 "U9" H 5900 8600 60  0000 C CNN
+F 1 "Vedonpoisto_10x1.7" H 5900 8800 60  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:vedonpoisto" H 5900 8700 60  0001 C CNN
+F 3 "" H 5900 8700 60  0001 C CNN
+	1    5900 8700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR09
+U 1 1 5A78BD33
+P 6600 8700
+F 0 "#PWR09" H 6600 8450 50  0001 C CNN
+F 1 "GND" H 6600 8550 50  0000 C CNN
+F 2 "" H 6600 8700 50  0000 C CNN
+F 3 "" H 6600 8700 50  0000 C CNN
+	1    6600 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:MCP1640B- U18
+U 1 1 5BB8B315
+P 13900 3250
+F 0 "U18" H 13900 2950 60  0000 C CNN
+F 1 "MCP1640B" H 13950 3550 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 13200 3650 60  0001 C CNN
+F 3 "" H 13200 3650 60  0001 C CNN
+	1    13900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:INDUCTOR- 4.7uH1
+U 1 1 5BB8B636
+P 13000 3100
+F 0 "4.7uH1" V 12950 3100 50  0000 C CNN
+F 1 "L" V 13100 3100 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 13000 3100 50  0001 C CNN
+F 3 "" H 13000 3100 50  0000 C CNN
+	1    13000 3100
+	0    -1   -1   0   
+$EndComp
+Text Notes 13350 4450 0    60   ~ 0
+Vout = ((Rtop/Rbot) +1)*1.21\n\nVout = ((976k/536k)+1)*1.21 = ~3,4V
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR08
+U 1 1 5BB9050D
+P 5250 4550
+F 0 "#PWR08" H 5250 4300 50  0001 C CNN
+F 1 "GND" H 5250 4400 50  0000 C CNN
+F 2 "" H 5250 4550 50  0000 C CNN
+F 3 "" H 5250 4550 50  0000 C CNN
+	1    5250 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 3200 2    60   Input ~ 0
+Va1
+Text GLabel 3100 2700 2    60   Input ~ 0
+Va2
+Text GLabel 3100 2800 2    60   Input ~ 0
+Va3
+Text GLabel 3100 2900 2    60   Input ~ 0
+Va4
+Text GLabel 3100 3000 2    60   Input ~ 0
+Va5
+Text GLabel 3100 3300 2    60   Input ~ 0
+Vk1
+Text GLabel 3450 3300 1    60   Input ~ 0
+Vk2
+Text GLabel 3550 3300 1    60   Input ~ 0
+Vk3
+Text GLabel 3650 3300 1    60   Input ~ 0
+Vk4
+Text GLabel 3100 3800 2    60   Input ~ 0
+Vk5
+Text GLabel 3100 3900 2    60   Input ~ 0
+Vk6
+Text GLabel 3100 4000 2    60   Input ~ 0
+Vk7
+Text GLabel 3100 3100 2    60   Input ~ 0
+Va6
+Text GLabel 3100 2600 2    60   Input ~ 0
+Va7
+Text GLabel 8800 1200 1    60   Input ~ 0
+Va1
+Text GLabel 9300 1200 1    60   Input ~ 0
+Va2
+Text GLabel 9750 1200 1    60   Input ~ 0
+Va3
+Text GLabel 10250 1200 1    60   Input ~ 0
+Va4
+Text GLabel 10700 1200 1    60   Input ~ 0
+Va5
+Text GLabel 7800 2000 0    60   Input ~ 0
+Vk1
+Text GLabel 7800 2600 0    60   Input ~ 0
+Vk2
+Text GLabel 7800 3200 0    60   Input ~ 0
+Vk3
+Text GLabel 7800 3800 0    60   Input ~ 0
+Vk4
+Text GLabel 7800 4400 0    60   Input ~ 0
+Vk5
+Text GLabel 7800 5000 0    60   Input ~ 0
+Vk6
+Text GLabel 7800 5600 0    60   Input ~ 0
+Vk7
+Text GLabel 11150 1200 1    60   Input ~ 0
+Va6
+Text GLabel 11650 1200 1    60   Input ~ 0
+Va7
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR04
+U 1 1 5BB945F7
+P 2400 4500
+F 0 "#PWR04" H 2400 4250 50  0001 C CNN
+F 1 "GND" H 2400 4350 50  0000 C CNN
+F 2 "" H 2400 4500 50  0000 C CNN
+F 3 "" H 2400 4500 50  0000 C CNN
+	1    2400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:GND- #PWR05
+U 1 1 5BB947D1
+P 4550 2450
+F 0 "#PWR05" H 4550 2200 50  0001 C CNN
+F 1 "GND" H 4550 2300 50  0000 C CNN
+F 2 "" H 4550 2450 50  0000 C CNN
+F 3 "" H 4550 2450 50  0000 C CNN
+	1    4550 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D1
+U 1 1 5BB95395
+P 8800 1700
+F 0 "D1" H 8800 1800 50  0000 C CNN
+F 1 "LED" H 8800 1600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 1700 50  0001 C CNN
+F 3 "" H 8800 1700 50  0000 C CNN
+	1    8800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D2
+U 1 1 5BB954AA
+P 8800 2300
+F 0 "D2" H 8800 2400 50  0000 C CNN
+F 1 "LED" H 8800 2200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 2300 50  0001 C CNN
+F 3 "" H 8800 2300 50  0000 C CNN
+	1    8800 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D3
+U 1 1 5BB9553D
+P 8800 2900
+F 0 "D3" H 8800 3000 50  0000 C CNN
+F 1 "LED" H 8800 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 2900 50  0001 C CNN
+F 3 "" H 8800 2900 50  0000 C CNN
+	1    8800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D4
+U 1 1 5BB95937
+P 8800 3500
+F 0 "D4" H 8800 3600 50  0000 C CNN
+F 1 "LED" H 8800 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 3500 50  0001 C CNN
+F 3 "" H 8800 3500 50  0000 C CNN
+	1    8800 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D5
+U 1 1 5BB95BFB
+P 8800 4100
+F 0 "D5" H 8800 4200 50  0000 C CNN
+F 1 "LED" H 8800 4000 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 4100 50  0001 C CNN
+F 3 "" H 8800 4100 50  0000 C CNN
+	1    8800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D6
+U 1 1 5BB95C01
+P 8800 4700
+F 0 "D6" H 8800 4800 50  0000 C CNN
+F 1 "LED" H 8800 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 4700 50  0001 C CNN
+F 3 "" H 8800 4700 50  0000 C CNN
+	1    8800 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D7
+U 1 1 5BB95C07
+P 8800 5300
+F 0 "D7" H 8800 5400 50  0000 C CNN
+F 1 "LED" H 8800 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 5300 50  0001 C CNN
+F 3 "" H 8800 5300 50  0000 C CNN
+	1    8800 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D8
+U 1 1 5BB964D0
+P 9300 1700
+F 0 "D8" H 9300 1800 50  0000 C CNN
+F 1 "LED" H 9300 1600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 1700 50  0001 C CNN
+F 3 "" H 9300 1700 50  0000 C CNN
+	1    9300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D9
+U 1 1 5BB964D6
+P 9300 2300
+F 0 "D9" H 9300 2400 50  0000 C CNN
+F 1 "LED" H 9300 2200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 2300 50  0001 C CNN
+F 3 "" H 9300 2300 50  0000 C CNN
+	1    9300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D10
+U 1 1 5BB964DC
+P 9300 2900
+F 0 "D10" H 9300 3000 50  0000 C CNN
+F 1 "LED" H 9300 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 2900 50  0001 C CNN
+F 3 "" H 9300 2900 50  0000 C CNN
+	1    9300 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D11
+U 1 1 5BB964E2
+P 9300 3500
+F 0 "D11" H 9300 3600 50  0000 C CNN
+F 1 "LED" H 9300 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 3500 50  0001 C CNN
+F 3 "" H 9300 3500 50  0000 C CNN
+	1    9300 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D12
+U 1 1 5BB964E8
+P 9300 4100
+F 0 "D12" H 9300 4200 50  0000 C CNN
+F 1 "LED" H 9300 4000 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 4100 50  0001 C CNN
+F 3 "" H 9300 4100 50  0000 C CNN
+	1    9300 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D13
+U 1 1 5BB964EE
+P 9300 4700
+F 0 "D13" H 9300 4800 50  0000 C CNN
+F 1 "LED" H 9300 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 4700 50  0001 C CNN
+F 3 "" H 9300 4700 50  0000 C CNN
+	1    9300 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D14
+U 1 1 5BB964F4
+P 9300 5300
+F 0 "D14" H 9300 5400 50  0000 C CNN
+F 1 "LED" H 9300 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 5300 50  0001 C CNN
+F 3 "" H 9300 5300 50  0000 C CNN
+	1    9300 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D15
+U 1 1 5BB967DB
+P 9750 1700
+F 0 "D15" H 9750 1800 50  0000 C CNN
+F 1 "LED" H 9750 1600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 1700 50  0001 C CNN
+F 3 "" H 9750 1700 50  0000 C CNN
+	1    9750 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D16
+U 1 1 5BB967E1
+P 9750 2300
+F 0 "D16" H 9750 2400 50  0000 C CNN
+F 1 "LED" H 9750 2200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 2300 50  0001 C CNN
+F 3 "" H 9750 2300 50  0000 C CNN
+	1    9750 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D17
+U 1 1 5BB967E7
+P 9750 2900
+F 0 "D17" H 9750 3000 50  0000 C CNN
+F 1 "LED" H 9750 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 2900 50  0001 C CNN
+F 3 "" H 9750 2900 50  0000 C CNN
+	1    9750 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D18
+U 1 1 5BB967ED
+P 9750 3500
+F 0 "D18" H 9750 3600 50  0000 C CNN
+F 1 "LED" H 9750 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 3500 50  0001 C CNN
+F 3 "" H 9750 3500 50  0000 C CNN
+	1    9750 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D19
+U 1 1 5BB967F3
+P 9750 4100
+F 0 "D19" H 9750 4200 50  0000 C CNN
+F 1 "LED" H 9750 4000 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 4100 50  0001 C CNN
+F 3 "" H 9750 4100 50  0000 C CNN
+	1    9750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D20
+U 1 1 5BB967F9
+P 9750 4700
+F 0 "D20" H 9750 4800 50  0000 C CNN
+F 1 "LED" H 9750 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 4700 50  0001 C CNN
+F 3 "" H 9750 4700 50  0000 C CNN
+	1    9750 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D21
+U 1 1 5BB967FF
+P 9750 5300
+F 0 "D21" H 9750 5400 50  0000 C CNN
+F 1 "LED" H 9750 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 5300 50  0001 C CNN
+F 3 "" H 9750 5300 50  0000 C CNN
+	1    9750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D22
+U 1 1 5BB96805
+P 10250 1700
+F 0 "D22" H 10250 1800 50  0000 C CNN
+F 1 "LED" H 10250 1600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 1700 50  0001 C CNN
+F 3 "" H 10250 1700 50  0000 C CNN
+	1    10250 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D23
+U 1 1 5BB9680B
+P 10250 2300
+F 0 "D23" H 10250 2400 50  0000 C CNN
+F 1 "LED" H 10250 2200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 2300 50  0001 C CNN
+F 3 "" H 10250 2300 50  0000 C CNN
+	1    10250 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D24
+U 1 1 5BB96811
+P 10250 2900
+F 0 "D24" H 10250 3000 50  0000 C CNN
+F 1 "LED" H 10250 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 2900 50  0001 C CNN
+F 3 "" H 10250 2900 50  0000 C CNN
+	1    10250 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D25
+U 1 1 5BB96817
+P 10250 3500
+F 0 "D25" H 10250 3600 50  0000 C CNN
+F 1 "LED" H 10250 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 3500 50  0001 C CNN
+F 3 "" H 10250 3500 50  0000 C CNN
+	1    10250 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D26
+U 1 1 5BB9681D
+P 10250 4100
+F 0 "D26" H 10250 4200 50  0000 C CNN
+F 1 "LED" H 10250 4000 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 4100 50  0001 C CNN
+F 3 "" H 10250 4100 50  0000 C CNN
+	1    10250 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D27
+U 1 1 5BB96823
+P 10250 4700
+F 0 "D27" H 10250 4800 50  0000 C CNN
+F 1 "LED" H 10250 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 4700 50  0001 C CNN
+F 3 "" H 10250 4700 50  0000 C CNN
+	1    10250 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D28
+U 1 1 5BB96829
+P 10250 5300
+F 0 "D28" H 10250 5400 50  0000 C CNN
+F 1 "LED" H 10250 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10250 5300 50  0001 C CNN
+F 3 "" H 10250 5300 50  0000 C CNN
+	1    10250 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D29
+U 1 1 5BB971F0
+P 10700 1700
+F 0 "D29" H 10700 1800 50  0000 C CNN
+F 1 "LED" H 10700 1600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 1700 50  0001 C CNN
+F 3 "" H 10700 1700 50  0000 C CNN
+	1    10700 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D30
+U 1 1 5BB971F6
+P 10700 2300
+F 0 "D30" H 10700 2400 50  0000 C CNN
+F 1 "LED" H 10700 2200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 2300 50  0001 C CNN
+F 3 "" H 10700 2300 50  0000 C CNN
+	1    10700 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D31
+U 1 1 5BB971FC
+P 10700 2900
+F 0 "D31" H 10700 3000 50  0000 C CNN
+F 1 "LED" H 10700 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 2900 50  0001 C CNN
+F 3 "" H 10700 2900 50  0000 C CNN
+	1    10700 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D32
+U 1 1 5BB97202
+P 10700 3500
+F 0 "D32" H 10700 3600 50  0000 C CNN
+F 1 "LED" H 10700 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 3500 50  0001 C CNN
+F 3 "" H 10700 3500 50  0000 C CNN
+	1    10700 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D33
+U 1 1 5BB97208
+P 10700 4100
+F 0 "D33" H 10700 4200 50  0000 C CNN
+F 1 "LED" H 10700 4000 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 4100 50  0001 C CNN
+F 3 "" H 10700 4100 50  0000 C CNN
+	1    10700 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D34
+U 1 1 5BB9720E
+P 10700 4700
+F 0 "D34" H 10700 4800 50  0000 C CNN
+F 1 "LED" H 10700 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 4700 50  0001 C CNN
+F 3 "" H 10700 4700 50  0000 C CNN
+	1    10700 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D35
+U 1 1 5BB97214
+P 10700 5300
+F 0 "D35" H 10700 5400 50  0000 C CNN
+F 1 "LED" H 10700 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 5300 50  0001 C CNN
+F 3 "" H 10700 5300 50  0000 C CNN
+	1    10700 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D36
+U 1 1 5BB9721A
+P 11150 1700
+F 0 "D36" H 11150 1800 50  0000 C CNN
+F 1 "LED" H 11150 1600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 1700 50  0001 C CNN
+F 3 "" H 11150 1700 50  0000 C CNN
+	1    11150 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D37
+U 1 1 5BB97220
+P 11150 2300
+F 0 "D37" H 11150 2400 50  0000 C CNN
+F 1 "LED" H 11150 2200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 2300 50  0001 C CNN
+F 3 "" H 11150 2300 50  0000 C CNN
+	1    11150 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D38
+U 1 1 5BB97226
+P 11150 2900
+F 0 "D38" H 11150 3000 50  0000 C CNN
+F 1 "LED" H 11150 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 2900 50  0001 C CNN
+F 3 "" H 11150 2900 50  0000 C CNN
+	1    11150 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D39
+U 1 1 5BB9722C
+P 11150 3500
+F 0 "D39" H 11150 3600 50  0000 C CNN
+F 1 "LED" H 11150 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 3500 50  0001 C CNN
+F 3 "" H 11150 3500 50  0000 C CNN
+	1    11150 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D40
+U 1 1 5BB97232
+P 11150 4100
+F 0 "D40" H 11150 4200 50  0000 C CNN
+F 1 "LED" H 11150 4000 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 4100 50  0001 C CNN
+F 3 "" H 11150 4100 50  0000 C CNN
+	1    11150 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D41
+U 1 1 5BB97238
+P 11150 4700
+F 0 "D41" H 11150 4800 50  0000 C CNN
+F 1 "LED" H 11150 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 4700 50  0001 C CNN
+F 3 "" H 11150 4700 50  0000 C CNN
+	1    11150 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D42
+U 1 1 5BB9723E
+P 11150 5300
+F 0 "D42" H 11150 5400 50  0000 C CNN
+F 1 "LED" H 11150 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11150 5300 50  0001 C CNN
+F 3 "" H 11150 5300 50  0000 C CNN
+	1    11150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D43
+U 1 1 5BB97244
+P 11650 1700
+F 0 "D43" H 11650 1800 50  0000 C CNN
+F 1 "LED" H 11650 1600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11650 1700 50  0001 C CNN
+F 3 "" H 11650 1700 50  0000 C CNN
+	1    11650 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D44
+U 1 1 5BB9724A
+P 11650 2300
+F 0 "D44" H 11650 2400 50  0000 C CNN
+F 1 "LED" H 11650 2200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11650 2300 50  0001 C CNN
+F 3 "" H 11650 2300 50  0000 C CNN
+	1    11650 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D45
+U 1 1 5BB97250
+P 11650 2900
+F 0 "D45" H 11650 3000 50  0000 C CNN
+F 1 "LED" H 11650 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11650 2900 50  0001 C CNN
+F 3 "" H 11650 2900 50  0000 C CNN
+	1    11650 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D46
+U 1 1 5BB97256
+P 11650 3500
+F 0 "D46" H 11650 3600 50  0000 C CNN
+F 1 "LED" H 11650 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11650 3500 50  0001 C CNN
+F 3 "" H 11650 3500 50  0000 C CNN
+	1    11650 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D47
+U 1 1 5BB9725C
+P 11650 4100
+F 0 "D47" H 11650 4200 50  0000 C CNN
+F 1 "LED" H 11650 4000 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11650 4100 50  0001 C CNN
+F 3 "" H 11650 4100 50  0000 C CNN
+	1    11650 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D48
+U 1 1 5BB97262
+P 11650 4700
+F 0 "D48" H 11650 4800 50  0000 C CNN
+F 1 "LED" H 11650 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11650 4700 50  0001 C CNN
+F 3 "" H 11650 4700 50  0000 C CNN
+	1    11650 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:LED- D49
+U 1 1 5BB97268
+P 11650 5300
+F 0 "D49" H 11650 5400 50  0000 C CNN
+F 1 "LED" H 11650 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11650 5300 50  0001 C CNN
+F 3 "" H 11650 5300 50  0000 C CNN
+	1    11650 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R2
+U 1 1 5BB97F96
+P 8150 2000
+F 0 "R2" V 8230 2000 50  0000 C CNN
+F 1 "100" V 8150 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 2000 50  0001 C CNN
+F 3 "" H 8150 2000 50  0000 C CNN
+	1    8150 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R3
+U 1 1 5BB984FC
+P 8150 2600
+F 0 "R3" V 8230 2600 50  0000 C CNN
+F 1 "100" V 8150 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 2600 50  0001 C CNN
+F 3 "" H 8150 2600 50  0000 C CNN
+	1    8150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R4
+U 1 1 5BB98634
+P 8150 3200
+F 0 "R4" V 8230 3200 50  0000 C CNN
+F 1 "100" V 8150 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 3200 50  0001 C CNN
+F 3 "" H 8150 3200 50  0000 C CNN
+	1    8150 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R5
+U 1 1 5BB98864
+P 8150 3800
+F 0 "R5" V 8230 3800 50  0000 C CNN
+F 1 "100" V 8150 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 3800 50  0001 C CNN
+F 3 "" H 8150 3800 50  0000 C CNN
+	1    8150 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R6
+U 1 1 5BB98AE8
+P 8150 4400
+F 0 "R6" V 8230 4400 50  0000 C CNN
+F 1 "100" V 8150 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 4400 50  0001 C CNN
+F 3 "" H 8150 4400 50  0000 C CNN
+	1    8150 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R7
+U 1 1 5BB98C19
+P 8150 5000
+F 0 "R7" V 8230 5000 50  0000 C CNN
+F 1 "100" V 8150 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 5000 50  0001 C CNN
+F 3 "" H 8150 5000 50  0000 C CNN
+	1    8150 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L SIK_LedMerkki-rescue:R- R8
+U 1 1 5BB98D45
+P 8150 5600
+F 0 "R8" V 8230 5600 50  0000 C CNN
+F 1 "100" V 8150 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 5600 50  0001 C CNN
+F 3 "" H 8150 5600 50  0000 C CNN
+	1    8150 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13300 3100 13500 3100
+Wire Wire Line
+	14350 3100 15050 3100
+Wire Wire Line
+	15400 3000 15400 3100
+Wire Wire Line
+	15400 3650 15400 3750
+Wire Wire Line
+	15400 3750 15050 3750
+Connection ~ 15050 3100
+Connection ~ 15400 3100
+Wire Wire Line
+	14350 3250 14650 3250
+Wire Wire Line
+	14650 3250 14650 3400
+Wire Wire Line
+	14650 3400 15050 3400
+Wire Wire Line
+	15050 3400 15050 3450
+Wire Wire Line
+	12600 3750 13050 3750
+Wire Wire Line
+	6300 6500 6600 6500
+Wire Wire Line
+	6300 6800 6600 6800
+Wire Wire Line
+	6300 7100 6600 7100
+Wire Wire Line
+	6300 7400 6600 7400
+Wire Wire Line
+	6300 7750 6600 7750
+Wire Wire Line
+	6300 8100 6600 8100
+Wire Wire Line
+	6300 8400 6600 8400
+Wire Wire Line
+	6300 8700 6600 8700
+Wire Wire Line
+	6600 6500 6600 6800
+Connection ~ 6600 6800
+Connection ~ 6600 6500
+Connection ~ 6600 7100
+Connection ~ 6600 7400
+Connection ~ 6600 7750
+Connection ~ 6600 8100
+Connection ~ 6600 8400
+Connection ~ 6600 8700
+Wire Wire Line
+	12600 3100 12700 3100
+Wire Wire Line
+	12600 3050 12600 3100
+Wire Wire Line
+	12600 3400 13050 3400
+Connection ~ 12600 3400
+Wire Wire Line
+	13500 3250 12600 3250
+Connection ~ 12600 3250
+Wire Wire Line
+	13050 3450 13050 3400
+Connection ~ 13050 3400
+Connection ~ 12600 3100
+Wire Wire Line
+	3100 4100 4550 4100
+Wire Wire Line
+	5250 4500 5150 4500
+Wire Wire Line
+	3100 4200 4200 4200
+Wire Wire Line
+	4200 4200 4200 2850
+Wire Wire Line
+	4200 2850 4550 2850
+Wire Wire Line
+	3100 3700 3650 3700
+Wire Wire Line
+	4050 3700 4050 2750
+Wire Wire Line
+	4050 2750 4550 2750
+Wire Wire Line
+	3100 3600 3550 3600
+Wire Wire Line
+	3950 3600 3950 2650
+Wire Wire Line
+	3950 2650 4550 2650
+Wire Wire Line
+	4550 2550 3850 2550
+Wire Wire Line
+	3850 2550 3850 3500
+Wire Wire Line
+	3850 3500 3450 3500
+Wire Wire Line
+	3450 3300 3450 3500
+Connection ~ 3450 3500
+Wire Wire Line
+	3550 3300 3550 3600
+Connection ~ 3550 3600
+Wire Wire Line
+	3650 3300 3650 3700
+Connection ~ 3650 3700
+Wire Wire Line
+	1250 2150 1250 2200
+Wire Wire Line
+	9000 1500 9000 2100
+Wire Wire Line
+	9000 5100 8800 5100
+Wire Wire Line
+	8800 4500 9000 4500
+Connection ~ 9000 4500
+Wire Wire Line
+	8800 3900 9000 3900
+Connection ~ 9000 3900
+Wire Wire Line
+	8800 3300 9000 3300
+Connection ~ 9000 3300
+Wire Wire Line
+	8800 2700 9000 2700
+Connection ~ 9000 2700
+Wire Wire Line
+	8800 2100 9000 2100
+Connection ~ 9000 2100
+Wire Wire Line
+	8800 1200 8800 1500
+Wire Wire Line
+	8800 1500 9000 1500
+Wire Wire Line
+	9300 1500 9300 1200
+Wire Wire Line
+	9300 1500 9500 1500
+Wire Wire Line
+	9500 1500 9500 2100
+Wire Wire Line
+	9500 5100 9300 5100
+Wire Wire Line
+	9300 4500 9500 4500
+Connection ~ 9500 4500
+Wire Wire Line
+	9750 1200 9750 1500
+Wire Wire Line
+	10250 1200 10250 1500
+Wire Wire Line
+	10700 1200 10700 1500
+Wire Wire Line
+	11150 1200 11150 1500
+Wire Wire Line
+	11650 1200 11650 1500
+Wire Wire Line
+	9750 1500 10000 1500
+Wire Wire Line
+	10000 1500 10000 2100
+Wire Wire Line
+	10000 5100 9750 5100
+Wire Wire Line
+	10250 5100 10500 5100
+Wire Wire Line
+	10500 5100 10500 4500
+Wire Wire Line
+	10500 1500 10250 1500
+Wire Wire Line
+	10700 1500 10900 1500
+Wire Wire Line
+	10900 1500 10900 2100
+Wire Wire Line
+	10900 5100 10700 5100
+Wire Wire Line
+	11150 5100 11400 5100
+Wire Wire Line
+	11400 5100 11400 4500
+Wire Wire Line
+	11400 1500 11150 1500
+Wire Wire Line
+	11650 1500 11850 1500
+Wire Wire Line
+	11850 1500 11850 2100
+Wire Wire Line
+	11850 5100 11650 5100
+Wire Wire Line
+	11650 4500 11850 4500
+Connection ~ 11850 4500
+Wire Wire Line
+	11650 3900 11850 3900
+Connection ~ 11850 3900
+Wire Wire Line
+	11650 3300 11850 3300
+Connection ~ 11850 3300
+Wire Wire Line
+	11650 2700 11850 2700
+Connection ~ 11850 2700
+Wire Wire Line
+	11650 2100 11850 2100
+Connection ~ 11850 2100
+Wire Wire Line
+	11150 2100 11400 2100
+Connection ~ 11400 2100
+Wire Wire Line
+	10700 2100 10900 2100
+Connection ~ 10900 2100
+Wire Wire Line
+	10250 2100 10500 2100
+Connection ~ 10500 2100
+Wire Wire Line
+	9750 2100 10000 2100
+Connection ~ 10000 2100
+Wire Wire Line
+	9300 2100 9500 2100
+Connection ~ 9500 2100
+Wire Wire Line
+	9300 2700 9500 2700
+Connection ~ 9500 2700
+Wire Wire Line
+	9300 3300 9500 3300
+Connection ~ 9500 3300
+Wire Wire Line
+	9300 3900 9500 3900
+Connection ~ 9500 3900
+Wire Wire Line
+	9750 4500 10000 4500
+Connection ~ 10000 4500
+Wire Wire Line
+	9750 3900 10000 3900
+Connection ~ 10000 3900
+Wire Wire Line
+	9750 3300 10000 3300
+Connection ~ 10000 3300
+Wire Wire Line
+	9750 2700 10000 2700
+Connection ~ 10000 2700
+Wire Wire Line
+	10250 2700 10500 2700
+Connection ~ 10500 2700
+Wire Wire Line
+	10700 2700 10900 2700
+Connection ~ 10900 2700
+Wire Wire Line
+	11150 2700 11400 2700
+Connection ~ 11400 2700
+Wire Wire Line
+	10250 3300 10500 3300
+Connection ~ 10500 3300
+Wire Wire Line
+	10700 3300 10900 3300
+Connection ~ 10900 3300
+Wire Wire Line
+	11150 3300 11400 3300
+Connection ~ 11400 3300
+Wire Wire Line
+	11150 3900 11400 3900
+Connection ~ 11400 3900
+Wire Wire Line
+	10700 3900 10900 3900
+Connection ~ 10900 3900
+Wire Wire Line
+	10250 3900 10500 3900
+Connection ~ 10500 3900
+Wire Wire Line
+	10250 4500 10500 4500
+Connection ~ 10500 4500
+Wire Wire Line
+	10700 4500 10900 4500
+Connection ~ 10900 4500
+Wire Wire Line
+	11150 4500 11400 4500
+Connection ~ 11400 4500
+Wire Wire Line
+	8300 2000 8800 2000
+Wire Wire Line
+	11650 2000 11650 1900
+Wire Wire Line
+	11150 1900 11150 2000
+Connection ~ 11150 2000
+Wire Wire Line
+	10700 1900 10700 2000
+Connection ~ 10700 2000
+Wire Wire Line
+	10250 1900 10250 2000
+Connection ~ 10250 2000
+Wire Wire Line
+	9750 1900 9750 2000
+Connection ~ 9750 2000
+Wire Wire Line
+	9300 1900 9300 2000
+Connection ~ 9300 2000
+Wire Wire Line
+	8800 1900 8800 2000
+Connection ~ 8800 2000
+Wire Wire Line
+	8300 2600 8800 2600
+Wire Wire Line
+	11650 2600 11650 2500
+Wire Wire Line
+	11150 2500 11150 2600
+Connection ~ 11150 2600
+Wire Wire Line
+	10700 2500 10700 2600
+Connection ~ 10700 2600
+Wire Wire Line
+	10250 2500 10250 2600
+Connection ~ 10250 2600
+Wire Wire Line
+	9750 2500 9750 2600
+Connection ~ 9750 2600
+Wire Wire Line
+	9300 2500 9300 2600
+Connection ~ 9300 2600
+Wire Wire Line
+	8800 2500 8800 2600
+Connection ~ 8800 2600
+Wire Wire Line
+	8300 3200 8800 3200
+Wire Wire Line
+	11650 3200 11650 3100
+Wire Wire Line
+	11150 3100 11150 3200
+Connection ~ 11150 3200
+Wire Wire Line
+	10700 3100 10700 3200
+Connection ~ 10700 3200
+Wire Wire Line
+	10250 3100 10250 3200
+Connection ~ 10250 3200
+Wire Wire Line
+	9750 3100 9750 3200
+Connection ~ 9750 3200
+Wire Wire Line
+	9300 3100 9300 3200
+Connection ~ 9300 3200
+Wire Wire Line
+	8800 3100 8800 3200
+Connection ~ 8800 3200
+Wire Wire Line
+	8300 3800 8800 3800
+Wire Wire Line
+	11650 3800 11650 3700
+Wire Wire Line
+	11150 3700 11150 3800
+Connection ~ 11150 3800
+Wire Wire Line
+	10700 3700 10700 3800
+Connection ~ 10700 3800
+Wire Wire Line
+	10250 3700 10250 3800
+Connection ~ 10250 3800
+Wire Wire Line
+	9750 3700 9750 3800
+Connection ~ 9750 3800
+Wire Wire Line
+	9300 3700 9300 3800
+Connection ~ 9300 3800
+Wire Wire Line
+	8800 3700 8800 3800
+Connection ~ 8800 3800
+Wire Wire Line
+	8300 4400 8800 4400
+Wire Wire Line
+	11650 4400 11650 4300
+Wire Wire Line
+	11150 4300 11150 4400
+Connection ~ 11150 4400
+Wire Wire Line
+	10700 4300 10700 4400
+Connection ~ 10700 4400
+Wire Wire Line
+	10250 4300 10250 4400
+Connection ~ 10250 4400
+Wire Wire Line
+	9750 4300 9750 4400
+Connection ~ 9750 4400
+Wire Wire Line
+	9300 4300 9300 4400
+Connection ~ 9300 4400
+Wire Wire Line
+	8800 4300 8800 4400
+Connection ~ 8800 4400
+Wire Wire Line
+	8300 5000 8800 5000
+Wire Wire Line
+	11650 5000 11650 4900
+Wire Wire Line
+	11150 4900 11150 5000
+Connection ~ 11150 5000
+Wire Wire Line
+	10700 4900 10700 5000
+Connection ~ 10700 5000
+Wire Wire Line
+	10250 4900 10250 5000
+Connection ~ 10250 5000
+Wire Wire Line
+	9750 4900 9750 5000
+Connection ~ 9750 5000
+Wire Wire Line
+	9300 4900 9300 5000
+Connection ~ 9300 5000
+Wire Wire Line
+	8800 4900 8800 5000
+Connection ~ 8800 5000
+Wire Wire Line
+	8300 5600 8800 5600
+Wire Wire Line
+	11650 5600 11650 5500
+Wire Wire Line
+	11150 5500 11150 5600
+Connection ~ 11150 5600
+Wire Wire Line
+	10700 5500 10700 5600
+Connection ~ 10700 5600
+Wire Wire Line
+	10250 5500 10250 5600
+Connection ~ 10250 5600
+Wire Wire Line
+	9750 5500 9750 5600
+Connection ~ 9750 5600
+Wire Wire Line
+	9300 5500 9300 5600
+Connection ~ 9300 5600
+Wire Wire Line
+	8800 5500 8800 5600
+Connection ~ 8800 5600
+Wire Wire Line
+	8000 5600 7800 5600
+Wire Wire Line
+	7800 5000 8000 5000
+Wire Wire Line
+	8000 4400 7800 4400
+Wire Wire Line
+	8000 3800 7800 3800
+Wire Wire Line
+	8000 3200 7800 3200
+Wire Wire Line
+	8000 2600 7800 2600
+Wire Wire Line
+	8000 2000 7800 2000
+Wire Wire Line
+	15050 3100 15400 3100
+Wire Wire Line
+	15400 3100 15400 3350
+Wire Wire Line
+	6600 6800 6950 6800
+Wire Wire Line
+	6600 6800 6600 7100
+Wire Wire Line
+	6600 6500 6950 6500
+Wire Wire Line
+	6600 7100 6950 7100
+Wire Wire Line
+	6600 7100 6600 7400
+Wire Wire Line
+	6600 7400 6950 7400
+Wire Wire Line
+	6600 7400 6600 7750
+Wire Wire Line
+	6600 7750 6950 7750
+Wire Wire Line
+	6600 7750 6600 8100
+Wire Wire Line
+	6600 8100 6950 8100
+Wire Wire Line
+	6600 8100 6600 8400
+Wire Wire Line
+	6600 8400 6950 8400
+Wire Wire Line
+	6600 8400 6600 8700
+Wire Wire Line
+	6600 8700 6950 8700
+Wire Wire Line
+	12600 3400 12600 3450
+Wire Wire Line
+	12600 3250 12600 3400
+Wire Wire Line
+	13050 3400 13500 3400
+Wire Wire Line
+	12600 3100 12600 3250
+Wire Wire Line
+	5250 4500 5250 4550
+Wire Wire Line
+	3450 3500 3100 3500
+Wire Wire Line
+	3550 3600 3950 3600
+Wire Wire Line
+	3650 3700 4050 3700
+Wire Wire Line
+	9000 4500 9000 5100
+Wire Wire Line
+	9000 3900 9000 4500
+Wire Wire Line
+	9000 3300 9000 3900
+Wire Wire Line
+	9000 2700 9000 3300
+Wire Wire Line
+	9000 2100 9000 2700
+Wire Wire Line
+	9500 4500 9500 5100
+Wire Wire Line
+	11850 4500 11850 5100
+Wire Wire Line
+	11850 3900 11850 4500
+Wire Wire Line
+	11850 3300 11850 3900
+Wire Wire Line
+	11850 2700 11850 3300
+Wire Wire Line
+	11850 2100 11850 2700
+Wire Wire Line
+	11400 2100 11400 1500
+Wire Wire Line
+	10900 2100 10900 2700
+Wire Wire Line
+	10500 2100 10500 1500
+Wire Wire Line
+	10000 2100 10000 2700
+Wire Wire Line
+	9500 2100 9500 2700
+Wire Wire Line
+	9500 2700 9500 3300
+Wire Wire Line
+	9500 3300 9500 3900
+Wire Wire Line
+	9500 3900 9500 4500
+Wire Wire Line
+	10000 4500 10000 5100
+Wire Wire Line
+	10000 3900 10000 4500
+Wire Wire Line
+	10000 3300 10000 3900
+Wire Wire Line
+	10000 2700 10000 3300
+Wire Wire Line
+	10500 2700 10500 2100
+Wire Wire Line
+	10900 2700 10900 3300
+Wire Wire Line
+	11400 2700 11400 2100
+Wire Wire Line
+	10500 3300 10500 2700
+Wire Wire Line
+	10900 3300 10900 3900
+Wire Wire Line
+	11400 3300 11400 2700
+Wire Wire Line
+	11400 3900 11400 3300
+Wire Wire Line
+	10900 3900 10900 4500
+Wire Wire Line
+	10500 3900 10500 3300
+Wire Wire Line
+	10500 4500 10500 3900
+Wire Wire Line
+	10900 4500 10900 5100
+Wire Wire Line
+	11400 4500 11400 3900
+Wire Wire Line
+	11150 2000 11650 2000
+Wire Wire Line
+	10700 2000 11150 2000
+Wire Wire Line
+	10250 2000 10700 2000
+Wire Wire Line
+	9750 2000 10250 2000
+Wire Wire Line
+	9300 2000 9750 2000
+Wire Wire Line
+	8800 2000 9300 2000
+Wire Wire Line
+	11150 2600 11650 2600
+Wire Wire Line
+	10700 2600 11150 2600
+Wire Wire Line
+	10250 2600 10700 2600
+Wire Wire Line
+	9750 2600 10250 2600
+Wire Wire Line
+	9300 2600 9750 2600
+Wire Wire Line
+	8800 2600 9300 2600
+Wire Wire Line
+	11150 3200 11650 3200
+Wire Wire Line
+	10700 3200 11150 3200
+Wire Wire Line
+	10250 3200 10700 3200
+Wire Wire Line
+	9750 3200 10250 3200
+Wire Wire Line
+	9300 3200 9750 3200
+Wire Wire Line
+	8800 3200 9300 3200
+Wire Wire Line
+	11150 3800 11650 3800
+Wire Wire Line
+	10700 3800 11150 3800
+Wire Wire Line
+	10250 3800 10700 3800
+Wire Wire Line
+	9750 3800 10250 3800
+Wire Wire Line
+	9300 3800 9750 3800
+Wire Wire Line
+	8800 3800 9300 3800
+Wire Wire Line
+	11150 4400 11650 4400
+Wire Wire Line
+	10700 4400 11150 4400
+Wire Wire Line
+	10250 4400 10700 4400
+Wire Wire Line
+	9750 4400 10250 4400
+Wire Wire Line
+	9300 4400 9750 4400
+Wire Wire Line
+	8800 4400 9300 4400
+Wire Wire Line
+	11150 5000 11650 5000
+Wire Wire Line
+	10700 5000 11150 5000
+Wire Wire Line
+	10250 5000 10700 5000
+Wire Wire Line
+	9750 5000 10250 5000
+Wire Wire Line
+	9300 5000 9750 5000
+Wire Wire Line
+	8800 5000 9300 5000
+Wire Wire Line
+	11150 5600 11650 5600
+Wire Wire Line
+	10700 5600 11150 5600
+Wire Wire Line
+	10250 5600 10700 5600
+Wire Wire Line
+	9750 5600 10250 5600
+Wire Wire Line
+	9300 5600 9750 5600
+Wire Wire Line
+	8800 5600 9300 5600
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 5BB9FB0D
+P 4750 2550
+F 0 "J1" H 4777 2526 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 4777 2435 50  0000 L CNN
+F 2 "SIK_LedMerkki_footprints:PinHeader_1x06_P2.54mm_Vertical_3mm" H 4750 2550 50  0001 C CNN
+F 3 "~" H 4750 2550 50  0001 C CNN
+	1    4750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW1
+U 1 1 5BBA04AF
+P 4850 4300
+F 0 "SW1" H 4850 4585 50  0000 C CNN
+F 1 "SW_Push_Dual" H 5000 4700 50  0000 C CNN
+F 2 "SIK_LedMerkki_footprints:push_switch_SMD" H 4850 4500 50  0001 C CNN
+F 3 "" H 4850 4500 50  0001 C CNN
+	1    4850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3900 4550 4100
+Wire Wire Line
+	4650 4300 4550 4300
+Wire Wire Line
+	5050 4300 5250 4300
+Connection ~ 4550 4100
+Wire Wire Line
+	4550 4100 4550 4300
+$Comp
+L MCU_Microchip_ATtiny:ATtiny861A-SU U1
+U 1 1 5BC063A6
+P 2400 3400
+F 0 "U1" H 1770 3446 50  0000 R CNN
+F 1 "ATtiny861A-SU" H 1770 3355 50  0000 R CNN
+F 2 "SIK_LedMerkki_footprints:SOIC-20W_7.5x12.8mm_P1.27mm_handSolder" H 2400 3400 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8197.pdf" H 2400 3400 50  0001 C CNN
+	1    2400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4500 2400 4500
+Connection ~ 2400 4500
+Wire Wire Line
+	1550 2150 1550 2200
+Wire Wire Line
+	1250 2150 1550 2150
+Wire Wire Line
+	1550 2050 1550 2150
+Connection ~ 1550 2150
+Wire Wire Line
+	2500 2150 2500 2300
+Wire Wire Line
+	2400 2300 2400 2150
+Connection ~ 2400 2150
+Wire Wire Line
+	2400 2150 2500 2150
+Connection ~ 8800 1500
+Connection ~ 9300 1500
+Connection ~ 9750 1500
+Connection ~ 10250 1500
+Connection ~ 10700 1500
+Connection ~ 11150 1500
+Connection ~ 11650 1500
+Text GLabel 12600 3050 1    60   Input ~ 0
+Vin3V
+Text GLabel 4500 2300 1    60   Input ~ 0
+Vin3V
+Wire Wire Line
+	4550 2350 4500 2350
+Wire Wire Line
+	4500 2350 4500 2300
+Connection ~ 13050 3750
+Connection ~ 15050 3400
+Connection ~ 15400 3750
+Wire Wire Line
+	1550 2150 2400 2150
+Wire Wire Line
+	4550 4100 5250 4100
+Wire Wire Line
+	5250 4100 5250 4300
+Wire Wire Line
+	4650 4500 4650 4550
+Wire Wire Line
+	4650 4550 5150 4550
+Wire Wire Line
+	5150 4550 5150 4500
+Connection ~ 5150 4500
+Wire Wire Line
+	5150 4500 5050 4500
+Wire Wire Line
+	4400 4300 4550 4300
+Connection ~ 4550 4300
+$EndSCHEMATC
